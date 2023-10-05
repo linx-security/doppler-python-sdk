@@ -19,12 +19,12 @@ classifiers = [
 ]
 dependencies = [
     "requests~=2.31.0",
-    "http-exceptions~=0.2.10",
+    "http-exceptions~=0.2.10"
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest~=7.1.2"
+    "pytest~=7.1.2",
     "responses~=0.21.0"
 ]
 
